@@ -8,8 +8,10 @@ class Dog
      @@all << self
    end
 def clear_all
+
 end
 def self.all
+
 end
 
 
