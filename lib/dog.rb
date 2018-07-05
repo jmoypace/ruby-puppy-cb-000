@@ -3,10 +3,10 @@ class Dog
 
   @@all = []
 
-def initialize(name)
-  @@all<<self
-  @name<<name
-end
+  def initialize(name)
+     @name = name
+     @@all << self
+   end
 def clear_all
 end
 def all
